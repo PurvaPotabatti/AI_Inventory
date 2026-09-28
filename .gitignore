@@ -1,0 +1,10 @@
+frontend/node_modules/
+frontend/build/
+
+backend/target/
+
+.env
+*.env
+
+.vscode/
+.idea/
