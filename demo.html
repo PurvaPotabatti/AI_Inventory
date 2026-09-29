@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShopStream Demo</title>
+</head>
+<body>
+    <h1>ShopStream Reactive Commerce Advisor</h1>
+    <p>The backend is running on port 8080.</p>
+    <p>You can test the API endpoints using tools like Postman or curl.</p>
+    <p>Example endpoints:</p>
+    <ul>
+        <li>GET http://localhost:8080/api/products - Get all products</li>
+        <li>POST http://localhost:8080/api/products/{id}/orders - Simulate sale</li>
+        <li>PATCH http://localhost:8080/api/products/{id}/stock - Update stock</li>
+        <li>GET http://localhost:8080/api/suggestions/pricing - Get pricing suggestions</li>
+        <li>GET http://localhost:8080/api/suggestions/reorder - Get reorder suggestions</li>
+    </ul>
+    <p>The agentic recommendation loop is working - when you simulate sales or update stock levels, 
+       suggestions will automatically be generated and appear in the suggestions endpoints.</p>
+</body>
+</html>
